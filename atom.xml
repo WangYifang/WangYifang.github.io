@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yifang&#39;s Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-05-19T08:47:07.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Wang Yifang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>deploy卡住是什么鬼……</title>
+    <link href="http://yoursite.com/2017/05/19/deploy%E5%8D%A1%E4%BD%8F%E6%98%AF%E4%BB%80%E4%B9%88%E9%AC%BC%E2%80%A6%E2%80%A6/"/>
+    <id>http://yoursite.com/2017/05/19/deploy卡住是什么鬼……/</id>
+    <published>2017-05-19T08:01:13.000Z</published>
+    <updated>2017-05-19T08:47:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>无话可说，至今没解决……<br>一个下午又没了……<br>有毒……</p>
+<p>补充：原因是网速太慢。。想看进度打开活动监视器看网速，里面有一个remote相关的东西。。然后就更新好了。。<br>但是gallery有问题，不知为啥。再看看。</p>
+<p>补充：为什么又不更新了……</p>
+<p>最后补充：下午切换三个网络——手机热点、实验室无线、学校无线，经历了WangYifang.github.io无法访问、提交文件严重延迟以至于怀疑根本没有更新的情况。但是，后来终于好了。。。</p>
+<p>网络延迟太长……<br>图片显示太慢……</p>
+<p>不过终于好了终于好了！<br>耶！</p>
+<h3>看论文去了……</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;无话可说，至今没解决……&lt;br&gt;一个下午又没了……&lt;br&gt;有毒……&lt;/p&gt;
+&lt;p&gt;补充：原因是网速太慢。。想看进度打开活动监视器看网速，里面有一个remote相关的东西。。然后就更新好了。。&lt;br&gt;但是gallery有问题，不知为啥。再看看。&lt;/p&gt;
+&lt;p&gt;补充：为什么又不
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo相关笔记</title>
+    <link href="http://yoursite.com/2017/05/17/Hexo%E7%9B%B8%E5%85%B3%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2017/05/17/Hexo相关笔记/</id>
+    <published>2017-05-17T11:36:50.000Z</published>
+    <updated>2017-05-17T12:42:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<div><br>博客文件是在本地文件~/hexo_blog中。<br>若是要在主页添加文章，就直接用命令：<br><code>hexo new ‘title’</code> //在hexo主目录下 source -&gt; _posts 新建以 .md 为后缀的文件。<br>主要命令就是：<br><code>hexo g </code> //g是generate的缩写<br><code>hexo s </code> //s是server的缩写<br><code>hexo d </code> //d是deploy的缩写<br><p style="font-size: 16px; font-weight: bold;"><em>注意:</em><br>1. g,s,d前面没有’-‘!!!<br>2. 文本编辑支持Markdown，但是不知道为什么标题不支持，前面不管加多少个’#’都不能解析……下次再研究……论文都没看，反省一下自己TAT……<br><br><a href="https://material.viosey.com/compose/" target="_blank" rel="external">主要教程参考Material官网</a><br></p></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div&gt;&lt;br&gt;博客文件是在本地文件~/hexo_blog中。&lt;br&gt;若是要在主页添加文章，就直接用命令：&lt;br&gt;&lt;code&gt;hexo new ‘title’&lt;/code&gt; //在hexo主目录下 source -&amp;gt; _posts 新建以 .md 为后缀的文件。&lt;br&gt;主
+    
+    </summary>
+    
+    
+      <category term="Hexo paper" scheme="http://yoursite.com/tags/Hexo-paper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello, Hexo</title>
+    <link href="http://yoursite.com/2017/05/17/Hello-Hexo/"/>
+    <id>http://yoursite.com/2017/05/17/Hello-Hexo/</id>
+    <published>2017-05-17T05:35:21.000Z</published>
+    <updated>1970-01-01T00:00:00.001Z</updated>
+    
+    <content type="html"><![CDATA[<div>2017年，5月，17日。终于开通Hexo博客主页。其实陆陆续续弄了一个月，寒假的时候第一次从学长那里知晓Hexo，然后觉得很不错。之前写文字的平台很多很杂，例如简书、微信公众号等等。想要有一个自己的主页，又不想要去弄服务器之类的东西。Hexo，绝佳。3月的时候弄了一半，今天花了一天的时间终于弄好了。以后就用起来啦~<br><blockquote>以生活的静默抵抗世俗的粗糙。<br><br>底色里有照见，有懂得，有地阔天高。</blockquote><br></div>
+
+
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;div&gt;2017年，5月，17日。终于开通Hexo博客主页。其实陆陆续续弄了一个月，寒假的时候第一次从学长那里知晓Hexo，然后觉得很不错。之前写文字的平台很多很杂，例如简书、微信公众号等等。想要有一个自己的主页，又不想要去弄服务器之类的东西。Hexo，绝佳。3月的时候弄了一半
+    
+    </summary>
+    
+    
+      <category term="我是王懿芳。" scheme="http://yoursite.com/tags/%E6%88%91%E6%98%AF%E7%8E%8B%E6%87%BF%E8%8A%B3%E3%80%82/"/>
+    
+  </entry>
+  
+</feed>
