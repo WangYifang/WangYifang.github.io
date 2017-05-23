@@ -10,7 +10,7 @@
     
     <title>
         
-            归档: 2017 | 
+            有关ID，有关阳光 | 
         
         Yifang&#39;s Blog
     </title>
@@ -32,7 +32,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Wang Yifang">
     <meta name="description" content="Keep calm and carry on.">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,随笔">
 
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/mylogo/mylogo.png">
@@ -58,9 +58,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2017 | Yifang&#39;s Blog">
+    <meta property="og:title" content="有关ID，有关阳光 | Yifang&#39;s Blog">
     <meta property="og:description" content="Keep calm and carry on.">
-    
+    <meta property="og:article:tag" content="随笔"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -221,270 +221,206 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
 
-    <!-- Normal Post -->
-    
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
         
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/myImg/20170523-1.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/myImg/20170523-1.jpg)">
     
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/23/有关ID，有关阳光/">有关ID，有关阳光</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-             我记得，小学，当同学们都在用稚嫩的语气描述出一个个美好、清丽的春天、都在用心赞美阳光的温暖的时候...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/23/有关ID，有关阳光/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/mylogo/6.jpeg" width="44px" height="44px" alt="Wang Yifang's avatar">
-            </div>
-            <div>
-                <strong>Wang Yifang</strong>
-                <span>5月 23, 2017</span>
-            </div>
+            <p class="article-headline-p">
+                有关ID，有关阳光
+            </p>
         </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
+
+
+
+
+
                 
-            </span>
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
 
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/mylogo/6.jpeg" width="44px" height="44px" alt="Author Avatar"/>
     </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Wang Yifang</strong>
+        <span>5月 23, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/随笔/">随笔</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=有关ID，有关阳光&url=http://yoursite.com//2017/05/23/有关ID，有关阳光/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Yifang&#39;s Blog&title=有关ID，有关阳光&summary=Keep calm and carry on.&pics=http://yoursite.com/img/mylogo/mylogo.png&url=http://yoursite.com/2017/05/23/有关ID，有关阳光/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
 </div>
 
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/19/deploy卡住是什么鬼……/">deploy卡住是什么鬼……</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            无话可说，至今没解决……一个下午又没了……有毒……
-补充：原因是网速太慢。。想看进度打开活动监视器看网速，里面有一个r...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/19/deploy卡住是什么鬼……/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/mylogo/6.jpeg" width="44px" height="44px" alt="Wang Yifang's avatar">
-            </div>
-            <div>
-                <strong>Wang Yifang</strong>
-                <span>5月 19, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
                 
-            </span>
 
-            
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p style="text-indent:2em;"> 我记得，小学，当同学们都在用稚嫩的语气描述出一个个美好、清丽的春天、都在用心赞美阳光的温暖的时候，我却总是喜欢一个人在阴天漫步，将自己装点成一个失意诗人，欲赋新词强说愁。那个时候不喜欢阳光，不喜欢一切太过炙热、美好的东西。喜欢阴沉、喜欢没有阳光的阴天，感觉那样的天气才是最好的，因为没有阳光的炙烤，所以不热；又没有雨水的浸润，所以不潮湿。多好。<br></p><p style="text-indent:2em;"> 那时候的自己不甘心于平凡、不甘心和别人一样，不甘心于一个个复制的生活。买书的时候，一定买书店存货最少的版本；穿衣服，从不穿裙子；也从来对打扮之类的事情嗤之以鼻；不留长发，一席短发清清爽爽；最喜欢的季节是冬天，雪白、肃杀、沉寂。<br></p><p style="text-indent:2em;"> 因为特立独行，所以勇敢的站在顶端。<br></p><p style="text-indent:2em;"> 可是，不知道从什么时候开始，自己已经完全不是原来的样子。我开始回归大众之中，甚至想要隐匿其中，不想要做那个拔尖、特殊的人。开始喜欢阳光、钦羡一切温暖的东西。春天，穿行在校园之中，看着大草坪上搭着帐篷来游玩的大人与孩子，看着一个个追着跑着叫嚷着的大小孩，看着一只只风筝飞翔在辽阔天空，旁边花红柳绿、水中飞禽嬉戏……心中是幸福的。嘴角不自觉地上扬，好像自己也已经沉浸其中了。<br></p><p style="text-indent:2em;"> 我渐渐意识到，一个人，可能在生活中越缺少什么，就越向往什么。孩童时期原本就充满快乐，所以想要体验所谓的“沉寂”与“肃杀”，想要感受那个时间感受不到的一份心情，所以远离阳光、远离人群，去找寻；而随着时间的流逝，我们经历着，经历更多的人和事，经历我们未曾想到的忧伤、难过和苦涩。我们经历了比儿时想要经历的更多更深的心情，这不是我们主动去追寻的，是生命安排给我们的历练和考验。我们避无所避，只能面对。我们开始疲累，开始思考生命中的各种色彩。然后发现，儿时最多的快乐几乎已经不见了，取而代之的，竟是那时候一直追求的阴郁和惆怅。可笑。发现自己当时的可笑。然而，人不一直是在追求永远得不到的，对已经拥有的从来都是不屑的吗？“珍惜”这个词，即使一些人在某个时间段做到了，但也未必长久。让人意识到拥有的东西的重要性的时刻永远都是失去它的瞬间。<br><div style="text-align: center;"><br>  <img src="/img/myImg/20170523-1.jpg"><br></div><br></p><p style="text-indent:2em;"> 成长的过程，也是认识生命、体验生命的过程，我们渐渐地接受心中美好的完美世界在自己的思想逐渐成熟的过程中慢慢崩塌，然后在某个点上停止崩塌。美好的和丑陋的，就这样，维持着动态平衡。<br></p><p style="text-indent:2em;"> 这绝不是一件坏事。这标志的，是一个 个体的真正的成熟。世界本该如此，我们现在做的，是让自己变得更加客观、理性，了解了世界的好与坏，我们才有可能去适应世界、去努力改变它，让它的那个好与坏的平衡点能够有机会往“好”的一段稍稍移动改一下。<br></p><p style="text-indent:2em;"> 这样，便已足够。<br></p><p style="text-indent:2em;"> 我骑行在林荫道上，茂盛的樟树已经长出了新叶。旧叶依旧在树枝上，不肯离去。这时候，我们需要做的，就是等待，等风来.<br></p><p style="text-indent:2em;"> 这是春天啊，暖暖的风，暖暖的光，暖暖的微笑……即使生命有太多支离与破碎，但若我们的心中一直在追寻那一份美好的绿意，那一切都能够过去。谁都无法将我们击垮。</p>
 
-            
+<div style="text-align: center;"><br>  <img src="/img/myImg/20170523-2.jpg"><br></div>
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    
+
+    
 </div>
 
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/17/Hexo相关笔记/">Hexo相关笔记</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            博客文件是在本地文件~/hexo_blog中。若是要在主页添加文章，就直接用命令：hexo new ‘tit...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/17/Hexo相关笔记/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/mylogo/6.jpeg" width="44px" height="44px" alt="Wang Yifang's avatar">
-            </div>
-            <div>
-                <strong>Wang Yifang</strong>
-                <span>5月 17, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
                 
-            </span>
 
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/mylogo/2.png">
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2017/05/17/Hello-Hexo/">Hello, Hexo</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            2017年，5月，17日。终于开通Hexo博客主页。其实陆陆续续弄了一个月，寒假的时...
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/05/17/Hello-Hexo/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/mylogo/6.jpeg" width="44px" height="44px" alt="Wang Yifang's avatar">
-            </div>
-            <div>
-                <strong>Wang Yifang</strong>
-                <span>5月 17, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
+                <!-- Post Comments -->
                 
-            </span>
+                    
 
-            
 
-            
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
+
+
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/05/19/deploy卡住是什么鬼……/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
         </div>
     </div>
-</div>
 
-            
-            
-        
-    
-
-    
-
-    
-        <script>
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 21 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
-</script>
-
-    
-</div>
 
 
                     
