@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-05-24T07:52:17.000Z</updated>
+  <updated>2017-05-27T01:22:53.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小禅语录</title>
+    <link href="http://yoursite.com/2017/05/27/%E5%B0%8F%E7%A6%85%E8%AF%AD%E5%BD%95/"/>
+    <id>http://yoursite.com/2017/05/27/小禅语录/</id>
+    <published>2017-05-27T01:21:19.000Z</published>
+    <updated>2017-05-27T01:22:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>有事没事摘点东西……</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有事没事摘点东西……&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="雪小禅" scheme="http://yoursite.com/tags/%E9%9B%AA%E5%B0%8F%E7%A6%85/"/>
+    
+  </entry>
   
   <entry>
     <title>风中的鸟巢</title>

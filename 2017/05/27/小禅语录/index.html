@@ -10,7 +10,7 @@
     
     <title>
         
-            Hello, Hexo | 
+            小禅语录 | 
         
         Yifang&#39;s Blog
     </title>
@@ -32,7 +32,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Yifang-Wang in ZJU">
     <meta name="description" content="Keep calm and carry on.">
-    <meta name="keywords" content="null,Hexo">
+    <meta name="keywords" content="null,雪小禅">
 
     <!-- Favicons -->
     <link rel="icon shortcut" type="image/ico" href="/img/mylogo/mylogo.png">
@@ -58,9 +58,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Hello, Hexo | Yifang&#39;s Blog">
+    <meta property="og:title" content="小禅语录 | Yifang&#39;s Blog">
     <meta property="og:description" content="Keep calm and carry on.">
-    <meta property="og:article:tag" content="Hexo"> 
+    <meta property="og:article:tag" content="雪小禅"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -266,11 +266,20 @@
                 
     <!-- Paradox Post Header -->
     
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/mylogo/2.png)">
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script>
+    var randomNum = Math.floor(Math.random() * 21 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
     
             <p class="article-headline-p">
-                Hello, Hexo
+                小禅语录
             </p>
         </div>
 
@@ -289,7 +298,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Yifang-Wang in ZJU</strong>
-        <span>5月 17, 2017</span>
+        <span>5月 27, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -313,7 +322,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/Hexo/">Hexo</a>
+        <a class="post_tag-link" href="/tags/雪小禅/">雪小禅</a>
     </ul>
     
 
@@ -329,7 +338,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Hello, Hexo&url=http://yoursite.com//2017/05/17/Hello-Hexo/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=小禅语录&url=http://yoursite.com//2017/05/27/小禅语录/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -338,7 +347,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Hello, Hexo&url=http://yoursite.com//2017/05/17/Hello-Hexo/index.html&via=Yifang-Wang in ZJU" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=小禅语录&url=http://yoursite.com//2017/05/27/小禅语录/index.html&via=Yifang-Wang in ZJU" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -347,7 +356,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/05/17/Hello-Hexo/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//2017/05/27/小禅语录/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -362,7 +371,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Yifang&#39;s Blog&title=Hello, Hexo&summary=Keep calm and carry on.&pics=http://yoursite.com/img/mylogo/mylogo.png&url=http://yoursite.com/2017/05/17/Hello-Hexo/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Yifang&#39;s Blog&title=小禅语录&summary=Keep calm and carry on.&pics=http://yoursite.com/img/mylogo/mylogo.png&url=http://yoursite.com/2017/05/27/小禅语录/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -380,11 +389,7 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p></p><p style="text-indent:2em;">2017年，5月，17日。终于开通Hexo博客主页。其实陆陆续续弄了一个月，寒假的时候第一次从学长那里知晓Hexo，然后觉得很不错。之前写文字的平台很多很杂，例如简书、微信公众号等等。想要有一个自己的主页，又不想要去弄服务器之类的东西。Hexo，绝佳。3月的时候弄了一半，今天花了一天的时间终于弄好了。以后就用起来啦~</p>
-<blockquote style="font-size: 20px;">以生活的静默抵抗世俗的粗糙。<br><br>底色里有照见，有懂得，有地阔天高。</blockquote>
-
-
-
+        <p>有事没事摘点东西……</p>
 
     
 
@@ -406,8 +411,8 @@
         <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = 'http://yoursite.com/2017/05/17/Hello-Hexo/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://yoursite.com/2017/05/17/Hello-Hexo/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://yoursite.com/2017/05/27/小禅语录/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2017/05/27/小禅语录/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     queue.offer(function() {
             (function() { // DON'T EDIT BELOW THIS LINE
@@ -438,19 +443,19 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/05/17/Hexo相关笔记/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2017/05/24/风中的鸟巢/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 
