@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="hhttp://sunshinepursuerwyf.xyz/"/>
-  <updated>2017-09-05T07:14:38.000Z</updated>
+  <updated>2017-09-12T10:15:35.000Z</updated>
   <id>hhttp://sunshinepursuerwyf.xyz/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="hhttp://sunshinepursuerwyf.xyz/2017/09/05/%E6%97%A5%E5%B8%B8%E9%9A%8F%E6%83%B3/"/>
     <id>hhttp://sunshinepursuerwyf.xyz/2017/09/05/日常随想/</id>
     <published>2017-09-05T07:07:28.000Z</published>
-    <updated>2017-09-05T07:14:38.000Z</updated>
+    <updated>2017-09-12T10:15:35.000Z</updated>
     
     <content type="html"><![CDATA[<ol>
 <li>【2017年9月5日】 图书馆自习的时候遇到一对老人，大概有六十多岁了吧，并排坐坐着，都开着笔记本电脑，看着书，在查找些什么。看这情况，应该是一对退休老教授。还未放弃对自己喜欢的事物的研究，便闲暇时来到图书馆查阅资料做功课。他们并排坐着，并不交流，估计是怕打扰到别的同学吧。我的脑海里突然就开始像放旧电影一样，开始想象——时间倒流，在几十年前，如我们这般大的时候，他们俩应该也是这样，并肩坐着，静静地自习。不说话，就很美好。这，许是我最最渴望的，爱情的模样了吧……</li>
@@ -34,6 +34,8 @@
     
     </summary>
     
+    
+      <category term="随笔" scheme="hhttp://sunshinepursuerwyf.xyz/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
@@ -255,10 +257,9 @@
     <link href="hhttp://sunshinepursuerwyf.xyz/2017/05/19/deploy%E5%8D%A1%E4%BD%8F%E6%98%AF%E4%BB%80%E4%B9%88%E9%AC%BC%E2%80%A6%E2%80%A6/"/>
     <id>hhttp://sunshinepursuerwyf.xyz/2017/05/19/deploy卡住是什么鬼……/</id>
     <published>2017-05-19T08:01:13.000Z</published>
-    <updated>2017-05-19T08:47:07.000Z</updated>
+    <updated>2017-09-12T10:14:39.000Z</updated>
     
-    <content type="html"><![CDATA[<p>无话可说，至今没解决……<br>一个下午又没了……<br>有毒……</p>
-<p>补充：原因是网速太慢。。想看进度打开活动监视器看网速，里面有一个remote相关的东西。。然后就更新好了。。<br>但是gallery有问题，不知为啥。再看看。</p>
+    <content type="html"><![CDATA[<p>原因是网速太慢。。想看进度打开活动监视器看网速，里面有一个remote相关的东西。。然后就更新好了。。<br>但是gallery有问题，不知为啥。再看看。</p>
 <p>补充：为什么又不更新了……</p>
 <p>最后补充：下午切换三个网络——手机热点、实验室无线、学校无线，经历了WangYifang.github.io无法访问、提交文件严重延迟以至于怀疑根本没有更新的情况。但是，后来终于好了。。。</p>
 <p>网络延迟太长……<br>图片显示太慢……</p>
@@ -267,9 +268,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;无话可说，至今没解决……&lt;br&gt;一个下午又没了……&lt;br&gt;有毒……&lt;/p&gt;
-&lt;p&gt;补充：原因是网速太慢。。想看进度打开活动监视器看网速，里面有一个remote相关的东西。。然后就更新好了。。&lt;br&gt;但是gallery有问题，不知为啥。再看看。&lt;/p&gt;
-&lt;p&gt;补充：为什么又不
+      &lt;p&gt;原因是网速太慢。。想看进度打开活动监视器看网速，里面有一个remote相关的东西。。然后就更新好了。。&lt;br&gt;但是gallery有问题，不知为啥。再看看。&lt;/p&gt;
+&lt;p&gt;补充：为什么又不更新了……&lt;/p&gt;
+&lt;p&gt;最后补充：下午切换三个网络——手机热点、实验室无线、学校无线，
     
     </summary>
     
