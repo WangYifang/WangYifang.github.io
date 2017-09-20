@@ -1,769 +1,104 @@
 <!DOCTYPE html>
-<html lang="zh">
-    <head>
-    <!--
-        © Material Theme
-        https://github.com/viosey/hexo-theme-material
-        Version: 1.3.3 -->
+<html lang="en">
+  <!-- Head tag -->
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Title -->
-    
-    <title>
-        
-            标签: about | 
-        
-        Yifang Wang
-    </title>
+  <!-- Title -->
+  
+  <title>About Me - Yifang Wang</title>
 
-    <!-- Meta & Info -->
-    <meta charset="utf-8">
+  <!--Favicon-->
+  <link rel="icon" href="favicon/favicon.ico">
 
-    <!-- dns prefetch -->
-    <meta http-equiv="x-dns-prefetch-control" content="on">
-    
-    
-    
-    
-    
-    
+  <!--Description-->
+  
+      <meta name="description" content="Keep calm and carry on.">
+  
 
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0097A7">
-    <meta name="author" content="Yifang Wang in ZJU">
-    <meta name="description" content="Keep calm and carry on.">
-    <meta name="keywords" content="null">
+  <!--Author-->
+  
+      <meta name="author" content="Yifang Wang in ZJU">
+  
 
-    <!-- Favicons -->
-    <link rel="icon shortcut" type="image/ico" href="/img/mylogo/mylogo.png">
-    <link rel="icon" sizes="192x192" href="/img/mylogo/mylogo.png">
-    <link rel="apple-touch-icon" href="/img/mylogo/mylogo.png">
+  <!-- Pure CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
 
-    <!--iOS -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-title" content="Title">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="480">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Yifang Wang">
+  <!-- Google Analytics -->
+  
 
-    <!-- The Open Graph protocol -->
-    <meta property="og:url" content="hhttp://sunshinepursuerwyf.xyz">
-    <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: about | Yifang Wang">
-    <meta property="og:description" content="Keep calm and carry on.">
-    
-
-    <!--[if lte IE 9]>
-        <link rel="stylesheet" href="/css/ie-blocker.css">
-
-        
-            <script src="/js/ie-blocker.zhCN.js"></script>
-        
-    <![endif]-->
-
-    <!-- Import CSS & jQuery -->
-    
-        <link rel="stylesheet" href="/css/material.min.css">
-        <link rel="stylesheet" href="/css/style.min.css">
-        <!-- Config CSS -->
-
-
-<!-- Other Styles -->
-<style>
-  body, html {
-    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-  }
-
-  a {
-    color: #009688;
-  }
-
-  .mdl-card__media,
-  #search-label,
-  #search-form-label:after,
-  #scheme-Paradox .hot_tags-count,
-  #scheme-Paradox .sidebar_archives-count,
-  #scheme-Paradox .sidebar-colored .sidebar-header,
-  #scheme-Paradox .sidebar-colored .sidebar-badge{
-    background-color: #607D8B !important;
-  }
-
-  /* Sidebar User Drop Down Menu Text Color */
-  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
-  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
-    color: #607D8B !important;
-  }
-
-  #post_entry-right-info,
-  .sidebar-colored .sidebar-nav li:hover > a,
-  .sidebar-colored .sidebar-nav li:hover > a i,
-  .sidebar-colored .sidebar-nav li > a:hover,
-  .sidebar-colored .sidebar-nav li > a:hover i,
-  .sidebar-colored .sidebar-nav li > a:focus i,
-  .sidebar-colored .sidebar-nav > .open > a,
-  .sidebar-colored .sidebar-nav > .open > a:hover,
-  .sidebar-colored .sidebar-nav > .open > a:focus,
-  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
-    color: #607D8B !important;
-  }
-
-  .toTop {
-    background: #757575 !important;
-  }
-
-  .material-layout .material-post>.material-nav,
-  .material-layout .material-index>.material-nav,
-  .material-nav a {
-    color: #757575;
-  }
-
-  #scheme-Paradox .MD-burger-layer {
-    background-color: #757575;
-  }
-
-  #scheme-Paradox #post-toc-trigger-btn {
-    color: #757575;
-  }
-
-  .post-toc a:hover {
-    color: #009688;
-    text-decoration: underline;
-  }
-
-</style>
-
-
-<!-- Theme Background Related-->
-
-    <style>
-      body{
-        background-image: url(/img/myImg/xiaochan.jpg);
-      }
-    </style>
-
-
-
-
-<!-- Fade Effect -->
-
-    <style>
-      .fade {
-        transition: all 800ms linear;
-        -webkit-transform: translate3d(0,0,0);
-        -moz-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
-        -o-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-        opacity: 1;
-      }
-
-      .fade.out{
-        opacity: 0;
-      }
-    </style>
-
-
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/queue.js"></script>
-    
-
-    <!-- UC Browser Compatible -->
-    <script>
-        var agent = navigator.userAgent.toLowerCase();
-        if(agent.indexOf('ucbrowser')>0) {
-            document.write("<link rel=\"stylesheet\" href=\"/css/uc.css\">");
-            alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
-        }
-    </script>
-
-    
-
-    
-
-
-    <!-- Bing Background -->
-    
-
-    <!-- Custom Head -->
-    
 </head>
 
 
-    
-        <body id="scheme-Paradox" class="lazy">
-            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
-                
-
-                <!-- Main Container -->
-                <main class="material-layout__content" id="main">
-
-                    <!-- Top Anchor -->
-                    <div id="top"></div>
-
-                    
-                        <!-- Hamburger Button -->
-                        <button class="MD-burger-icon sidebar-toggle">
-                            <span class="MD-burger-layer"></span>
-                        </button>
-                    
-
-                    <!-- Post TOC -->
-
-
-<!-- Layouts -->
-
-    <!-- Post Module -->
-    <div class="material-post_container">
-
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/myImg/me.jpeg)">
-    
-            <p class="article-headline-p">
-                About Me
-            </p>
-        </div>
-
-
-
-
-
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/mylogo/me2.jpg" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>Yifang Wang in ZJU</strong>
-        <span>5月 17, 2017</span>
-    </div>
-
-    <div class="section-spacer"></div>
-
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
-
-    <!-- Qrcode -->
-    
-
-    <!-- Tags (bookmark) -->
-    
-    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-        <i class="material-icons" role="presentation">bookmark</i>
-        <span class="visuallyhidden">bookmark</span>
-    </button>
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
-        <li class="mdl-menu__item">
-        
+  <body>
+  	<div class="container-fluid navbar-container m-sm-5">
+      <!-- Header -->
+      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
+  <a class="navbar-brand ml-2" href="/">Yifang Wang</a>
+  <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto my-auto">
+      
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com">Instagram</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com">LinkedIn</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="/www.sunshinepursuerwyf.xyz">Blog</a>
+        </li>
+      
     </ul>
-    
-
-    <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=About Me&url=hhttp://sunshinepursuerwyf.xyz//about/index.html&pic=&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                分享到微博
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=About Me&url=hhttp://sunshinepursuerwyf.xyz//about/index.html&via=Yifang Wang in ZJU" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Twitter
-            </li>
-        </a>
-    
-
-    <!-- Share Facebook -->
-    
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=hhttp://sunshinepursuerwyf.xyz//about/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Facebook
-            </li>
-        </a>
-    
-
-    <!-- Share Google+ -->
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Yifang Wang&title=About Me&summary=Keep calm and carry on.&pics=hhttp://sunshinepursuerwyf.xyz/img/mylogo/mylogo.png&url=hhttp://sunshinepursuerwyf.xyz/about/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 QQ
-            </li>
-        </a>
-    
-
-    <!-- Share Telegram -->
-    
-</ul>
-
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        <p></p><h2>Interest</h2> <h3>亦圆亦方</h3><p style="text-indent:2em;"> 亦圆亦方，引申自“元芳”+“yifang”。因为身材较圆，自嘲为“圆芳”，后来干脆叫做“圆方”，好似一个出家人的法号。而圆与方，处事的周到、做事的方正，此处世之道，也正是自己所追求的境界。</p><h3>一方菌</h3><p style="text-indent:2em;"> 前室友戏谑的称谓。从“君”到“菌”只需要一夜之间……</p><h3>SunshinePursuer</h3><p style="text-indent:2em;"> 为了取一个合适的ID也是不择手段了。灵感来自某节课一起组队的学长的ID：PorridgeEater。取一个长一点的ID又能够记住的，其实可以把两三个单词拼凑起来啊~</p><p style="text-indent:2em;"> 可是，叫什么好呢？</p><p style="text-indent:2em;"> 正值阴雨天，没有阳光的杭州总是湿哒哒的，心情也被弄得很潮湿。不知道从什么时候开始，开始向往，甚至迷恋那一抹叫做“阳光”的东西。就叫sunshinepursuer吧。</p><h3>禅是一枝花</h3><p style="text-indent:2em;"> 在某电台开的一档栏目。大二的时候开的，到现在渐渐消失热情了……似乎越来越没有时间弄电台了，但依旧觉得自己的声音很好听23333。</p><div style="text-align: center;"><img src="/img/myImg/radio.png" style="width: 500px; height: 245px;"></div><h3>雪小禅</h3><p style="text-indent:2em;"> 喜欢读文字，却不是理工科们喜欢的那些充满批判感或者未来遐想的文章，亦非那些教人们管理、实践、经营情感的社会类指南。从前是白落梅、林清玄，而今，是雪小禅。我喜欢那种味道——素。一袭素衣，一朵莲花，一卷经文，落笔写下一篇小楷。</p><p style="text-indent:2em;"> 有时候回眸往事，想到为什么要选择这样一个专业。脑海里首先蹦出的一句话是高中语文老师对我某篇随笔的评语：“生活不但需要感性的丰满，更需要理性的支持”。然后便释然。若没有老师的引导，不仅仅是写作，我可能在生活中会走向一个只有感性的极端，停留在旧时光里，停留在老光阴里。这样显然是不可取的。</p><p style="text-indent:2em;"> 于是，为了追求平衡，我选择了理性、逻辑作为自己的研究对象。并将感性作为生活的一部分。平日里学逻辑、学世界上最最前沿的技术；私下里，偶尔回归禅意和素雅，做一个素人。与其说是一种妥协，倒不如说这是一种新的尝试。我想看看，最前沿的科技专业和回归自然老旧时光的兴趣究竟能否共生。有朋友评论说：“你一定是码代码里面文字写的最好的，也一定是写作者中代码码得最好的。”我释然。</p><p style="text-indent:2em;"> 能够在自己的领域坚持多久，又能够为自己所爱的东西坚持多久？且看吧。</p><br><p></p>
-<p style="text-indent:2em;"> 2017年5月23日 夜 来自一个不想做安编作业的小胖子。</p>
-
-
-    
-
-    
-</div>
-
-
-                
-
-                <!-- Post Comments -->
-                
-                    
-
-
-
-
-
-
-
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
+    <hr class="hidden-md-up" />
+  </div>
 </nav>
 
-        </div>
-    </div>
+
+  		<div class="row">
+  			
+<div class="col-12 pt-lg-3 mb-4 px-4 portfolio-content">
+  <div><div class="row"><br>        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8"><p>I’m Yifang Wang(王懿芳), currently an undergraduate student major in Software Engineering at <a href="http://www.zju.edu.cn/" target="_blank" rel="external">Zhejiang University</a>. I’m a member of <a href="http://http://portal.zjuvis.org/" target="_blank" rel="external">ZJUVIS Group</a> at the <a href="http://www.cad.zju.edu.cn/" target="_blank" rel="external">State Key Lab of CAD &amp; CG</a>, supervised by Prof. <a href="http://www.ycwu.org/" target="_blank" rel="external">Yingcai Wu</a>. <br>My research interests include <strong>Immersive Visual Analytics</strong> and <strong>Information Visualization</strong>,  especially <strong>the Visualization of traditional Chinese culture</strong>.</p><br>        </div><div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="/images/me.jpg" style="display:inline-block;vertical-align:top;margin-left:20px;margin-top:10px;width: 100%"></div><br>    </div></div><br>    <div><hr><h3>Interests and Hobbies</h3><div class="row"><br>        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">- Interested in traditional culture, especially calligraphy, traditional literature(such as chorography and zen aesthetics)<br>        - Enjoy meditating, reading, writing and photography, and now is maintaining my own <a href="http://sunshinepursuerwyf.xyz/" target="_blank" rel="external">blog</a><br>        - Enjoy recitation, and now is maintaining my own Internet Radio on <a href="http://www.lizhi.fm/" target="_blank" rel="external">Lizhi FM</a><br>        - Enjoy Singing and playing guitar(used to be a chorus girl for 9 years and won “Top Ten Singers”<br>  in junior high school)<br>        - Enjoy cycling, playing table-tennis, playing badminton, and mountain climbing<br>        </div><br>        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="/images/favicon.ico" style="display:inline-block;vertical-align:top;margin-left:20px;margin-top:10px;width: 70%"><br>        </div><br>    </div><div><br>    <hr><h3>Experience</h3><h5>○ 2017</h5>- Summer program @ National University of Singapore(NUS)<br><br>    <hr><h3>Awards and Honors</h3><h5>○ 2016-2017……………………………………</h5>- 2017 CCF(China Computer Federation) Outstanding University Student Award<br>        - The First Prize in ‘Miyoshi Cup’ Table Tennis Group Competition<br>        - 2017 Excellent League Member in Zhejiang University<br><br>    <h5>○ 2015-2016……………………………………</h5>- Excellent Student Awards<br>        - Bosch Scholoarship<br>        - Third-Class Scholarship for Outstanding Students<br>        - Third-Class Scholarship for Outstanding Merits<br>        - Excellent Social Work Scholarship<br>        - Third Prize of the National Talents Training Base<br>        - Excellent Senior Group in Danyang&amp;Qingxi Community<br><br>    <h5>○ 2014-2015……………………………………</h5>- Excellent Student Awards<br>        - Third-Class Scholarship for Outstanding Students<br>        - Third-Class Scholarship for Outstanding Merits<br>        - First-Class Merit in Military Education and Training<br>        - First Prize in the activity of visiting Alma mater<br>        - Excellence Award in ‘Dream of the Red Chamber’ themed Essay Competition<br>    </div><br>    <div><br>        <hr><h3>Contact Me</h3><div class="row"><br>        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><img src="/footer/footer_ico-github.svg" style="display:inline-block;width: 20%"><a href="https://github.com/WangYifang" target="_blank" rel="external">WangYifang</a><br>        </div><br>        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><img src="/footer/footer_ico-facebook.svg" style="display:inline-block;width: 20%"><a href="https://www.facebook.com/yifang.wang.777" target="_blank" rel="external">Yifang Wang</a><br>        </div><br>        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><img src="/footer/footer_ico-twitter.svg" style="display:inline-block;width: 20%"><a href="https://twitter.com/sunshinepursuer" target="_blank" rel="external">@sunshinepursuer</a><br>        </div><br>        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><img src="/footer/footer_ico-instagram.svg" style="display:inline-block;width: 20%"><a href="https://www.instagram.com/sunshinepursuer/" target="_blank" rel="external">@sunshinepursuer</a><br>        </div>
 
 
-
-                    
-                        <!-- Overlay For Active Sidebar -->
-<div class="sidebar-overlay"></div>
-
-<!-- Material sidebar -->
-<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
-    <div id="sidebar-main">
-        <!-- Sidebar Header -->
-        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header2.png);">
-    <!-- Top bar -->
-    <div class="top-bar"></div>
-
-    <!-- Sidebar toggle button -->
-    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
-        <i class="material-icons">clear_all</i>
-        <span class="mdl-button__ripple-container">
-            <span class="mdl-ripple">
-            </span>
-        </span>
-    </button>
-
-    <!-- Sidebar Avatar -->
-    <div class="sidebar-image">
-        <img src="/img/mylogo/me2.jpg" alt="Yifang Wang in ZJU's avatar">
-    </div>
-
-    <!-- Sidebar Email -->
-    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        Potterkkk@hotmail.com
-        <b class="caret"></b>
-    </a>
+<pre><code>&lt;/div&gt;
+</code></pre><p></p></div><p></p>
+</div></div>
 </div>
 
 
-        <!-- Sidebar Navigation  -->
-        <ul class="nav sidebar-nav">
-    <!-- User dropdown  -->
-    <li class="dropdown">
-        <ul id="settings-dropdown" class="dropdown-menu">
-            
-                <li>
-                    <a href="mailto: Potterkkk@hotmail.com" target="_blank" title="Email Me">
-                        
-                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
-                        
-                        Email Me
-                    </a>
-                </li>
-            
-        </ul>
-    </li>
-
-    <!-- Homepage -->
-    
-        <li id="sidebar-first-li">
-            <a href="/" target="_self">
-                
-                    <i class="material-icons sidebar-material-icons">home</i>
-                
-                Homepage
-            </a>
-        </li>
-        
-    
-
-    <!-- Archives  -->
-    
-        <li class="dropdown">
-            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
-                
-                    <i class="material-icons sidebar-material-icons">inbox</i>
-                
-                    Archives
-                <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu">
-            <li>
-                <a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/06/">六月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">5</span></a>
-            </ul>
-        </li>
-        
-    
-
-    <!-- Categories  -->
-    
-
-    <!-- Pages  -->
-    
-        <li>
-            <a href="/resume/my_resume.pdf" title="Resume">
-                
-                    <i class="material-icons sidebar-material-icons">assignment</i>
-                
-                Resume
-            </a>
-        </li>
-        
-    
-        <li>
-            <a href="/gallery" title="Gallery">
-                
-                    <i class="material-icons sidebar-material-icons">camera alt</i>
-                
-                Gallery
-            </a>
-        </li>
-        
-    
-        <li>
-            <a href="/tags" title="Wordle">
-                
-                    <i class="material-icons sidebar-material-icons">apps</i>
-                
-                Wordle
-            </a>
-        </li>
-        
-    
-        <li>
-            <a href="/timeline" title="Timeline">
-                
-                    <i class="material-icons sidebar-material-icons">timeline</i>
-                
-                Timeline
-            </a>
-        </li>
-        
-    
-        <li>
-            <a href="/about" title="About me">
-                
-                    <i class="material-icons sidebar-material-icons">person</i>
-                
-                About me
-            </a>
-        </li>
-        
-    
-
-    <!-- Article Number  -->
-    
-</ul>
-
-
-        <!-- Sidebar Footer -->
-        <!--
-I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
-If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
-It will not impact the appearance and can give developers a lot of support :)
-
-很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
-如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
-它不会影响美观并可以给开发者很大的支持和动力。 :)
--->
-
-<!-- Sidebar Divider -->
-
-    <div class="sidebar-divider"></div>
-
-
-<!-- Theme Material -->
-
-    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
-        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
-            主题 - Material
-            <span class="sidebar-badge badge-circle">i</span>
-        </div>
-    </a>
-
-
-<!-- Help & Support -->
-<!--
-
--->
-
-<!-- Feedback -->
-<!--
-
--->
-
-<!-- About Theme -->
-<!--
-
--->
-
-
-        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=731125691&auto=1&height=90"></iframe>
-
-    </div>
-
-    <!-- Sidebar Image -->
-    
-
-</aside>
-
-                    
-
-                    
-
-                    <!--Footer-->
-<footer class="mdl-mini-footer" id="bottom">
-    
-        <!-- Paradox Footer Left Section -->
-        <div class="mdl-mini-footer--left-section sns-list">
-    <!-- Twitter -->
-    
-        <a href="https://twitter.com/twitter" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
-                <span class="visuallyhidden">Twitter</span>
-            </button><!--
-     --></a>
-    
-
-    <!-- Facebook -->
-    
-        <a href="https://www.facebook.com/facebook" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.svg);">
-                <span class="visuallyhidden">Facebook</span>
-            </button><!--
-     --></a>
-    
-
-    <!-- Google + -->
-    
-        <a href="https://www.google.com/" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.svg);">
-                <span class="visuallyhidden">Google Plus</span>
-            </button><!--
-     --></a>
-    
-
-    <!-- Weibo -->
-    
-
-    <!-- Instagram -->
-    
-
-    <!-- Tumblr -->
-    
-
-    <!-- Github -->
-    
-        <a href="https://github.com/WangYifang" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-github.svg);">
-                <span class="visuallyhidden">Github</span>
-            </button><!--
-     --></a>
-    
-
-    <!-- LinkedIn -->
-    
-
-    <!-- Zhihu -->
-    
-
-    <!-- Bilibili -->
-    
-
-    <!-- Telegram -->
-    
-</div>
-
-
-        <!--Copyright-->
-        <div id="copyright">
-            Copyright&nbsp;©&nbsp;
-            <script type="text/javascript">
-                var fd = new Date();
-                document.write(fd.getFullYear());
-            </script>
-            &nbsp;Yifang Wang
-        </div>
-
-        <!-- Paradox Footer Right Section -->
-
-        <!--
-        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
-        It will not impact the appearance and can give developers a lot of support :)
-
-        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
-        它不会影响美观并可以给开发者很大的支持。 :)
-        -->
-
-        <div class="mdl-mini-footer--right-section">
-            <div>
-                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
-                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
-            </div>
-            <div>
-                <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-                <div>
-                本站总访问量 <span id="busuanzi_value_site_pv"></span> &nbsp&nbsp&nbsp
-                <br>你是第<span id="busuanzi_value_site_uv"></span>个来到的小伙伴
-                </div>
-            </div>
-        </div>
-    
-</footer>
-
-
-                    <!-- Import File -->
-
-    <script src="/js/lazyload.min.js"></script>
-    <script src="/js/js.min.js"></script>
-
-
-
-    <script src="/js/nprogress.js"></script>
-
-
-<script type="text/javascript">
-    NProgress.configure({
-        showSpinner: true
-    });
-    NProgress.start();
-    $('#nprogress .bar').css({
-        'background': '#29d'
-    });
-    $('#nprogress .peg').css({
-        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
-    });
-    $('#nprogress .spinner-icon').css({
-        'border-top-color': '#29d',
-        'border-left-color': '#29d'
-    });
-    setTimeout(function() {
-        NProgress.done();
-        $('.fade').removeClass('out');
-    }, 800);
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Window Load-->
-<script>
-    $(window).load(function() {
-        // Post_Toc parent position fixed
-        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
-    });
-</script>
-
-<!-- MathJax Load-->
-
-<script>
-    <!-- Offer LazyLoad -->
-    queue.offer(function(){
-        $('.lazy').lazyload({
-            effect : 'show'
-        });
-    });
-
-    <!-- Start Queue -->
-    $(document).ready(function(){
-        setTimeout(function(){
-            setInterval(function(){
-                queue.execNext();
-            },200);
-        },3000);
-    });
-</script>
-
-                </main>
-            </div>
-            
-        </body>
-    
+      </div>
+      
+  	</div>
+
+    <!-- After footer scripts -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  </body>
 </html>
