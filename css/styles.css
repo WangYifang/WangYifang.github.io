@@ -178,7 +178,7 @@ h1, h2, h3 {
 .mdl-mini-footer {
     box-sizing: border-box;
     margin-top: 5pc;
-    padding: 50px;
+    padding: 25px;
     height: 14%;
     background-color: #e7e5d0;
     -webkit-box-align: center;
@@ -232,6 +232,13 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
+.mdl-mini-footer--right-section, .mdl-mini-footer__right-section {
+  display: inline-block;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1
+}
 
 
 
