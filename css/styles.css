@@ -54,8 +54,9 @@ myp {
 }
 
 .portfolio-content {
-	line-height: 2;
+	line-height: 1.8;
 	color: #555;
+  font-size: 14px;
 }
 
 .portfolio-content a {
@@ -75,6 +76,18 @@ h1, h2, h3 {
 	letter-spacing: 1px;
 	font-weight: 300;
 	margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 26px;
 }
 
 .navbar-brand {
